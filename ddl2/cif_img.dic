@@ -1102,26 +1102,11 @@ save__array_data.data
               overloaded spots.
 
               The Content-Transfer-Encoding may be 'BASE64',
-              'Quoted-Printable', 'X-BASE8', 'X-BASE10',
-              'X-BASE16' or 'X-BASE32K', for an imgCIF or 'BINARY'
+              'Quoted-Printable', 'X-BASE8', 'X-BASE10' or
+              'X-BASE16' for an imgCIF or 'BINARY'
               for a CBF.  The octal, decimal and hexadecimal transfer
               encodings are provided for convenience in debugging and
               are not recommended for archiving and data interchange.
-
-              In a CIF, one of the parameters 'charset=us-ascii',
-              'charset=utf-8' or 'charset=utf-16' may be used on the
-              Content-Transfer-Encoding to specify the character set
-              used for the external presentation of the encoded data.
-              If no charset parameter is given, the character set of
-              the enclosing CIF is assumed.  In any case, if a BOM
-              flag is detected (FE FF for big-endian UTF-16, FF FE for
-              little-endian UTF-16 or EF BB BF for UTF-8) is detected,
-              the indicated charset will be assumed until the end of the
-              encoded data or the detection of a different BOM.  The
-              charset of the Content-Transfer-Encoding is not the character
-              set of the encoded data, only the character set of the
-              presentation of the encoded data and should be respecified
-              for each distinct STAR string.
 
               In an imgCIF file, the encoded binary data begin after
               the empty line terminating the header.  In an imgCIF file,
