@@ -6967,10 +6967,6 @@ save__diffrn_measurement.sample_detector_voffset
     _item.name                  '_diffrn_measurement.sample_detector_voffset'
     _item.category_id             diffrn_measurement
     _item.mandatory_code          no
-     loop_
-    _item_range.maximum
-    _item_range.minimum           .   .
-                                  .   .
     _item_type.code               float
     _item_units.code              'millimetres'
      save_
