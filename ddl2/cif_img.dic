@@ -7279,7 +7279,7 @@ save__diffrn_radiation.beam_flux
     _item.category_id             diffrn_radiation
     _item.mandatory_code          no
     _item_type.code               float
-    _item_units.code              photons_per_second'
+    _item_units.code              photons_per_second
      save_
 save__diffrn_radiation.beam_flux_density
     _item_description.description
