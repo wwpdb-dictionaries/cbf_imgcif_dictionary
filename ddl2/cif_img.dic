@@ -11470,11 +11470,13 @@ save__variant.variant
     _item_linked.child_name
     _item_linked.parent_name
              '_array_data.variant'                 '_variant.variant'
+             '_array_data_external_data.variant'   '_variant.variant'
              '_array_element_size.variant'         '_variant.variant'
              '_array_intensities.variant'          '_variant.variant'
              '_array_structure.variant'            '_variant.variant'
              '_array_structure_list.variant'       '_variant.variant'
              '_array_structure_list_axis.variant'  '_variant.variant'
+             '_array_structure_list_section.variant' '_variant.variant'
              '_axis.variant'                       '_variant.variant'
              '_diffrn_data_frame.variant'          '_variant.variant'
              '_diffrn_detector.variant'            '_variant.variant'
